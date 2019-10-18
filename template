@@ -1,0 +1,15 @@
+<VirtualHost *:80>
+	ServerAdmin template.email
+	DocumentRoot template.docroot
+	DirectoryIndex index.php
+	Options Indexes
+	ServerName template.url
+
+<Directory template.docroot>
+            AllowOverride All
+            Order allow,deny
+            allow from all
+</Directory>
+AccessFileName .htaccess 
+
+</VirtualHost>
