@@ -3,7 +3,7 @@
 # 2 correo para el hosts
 # 3 nombre del hosts
 # 4 ip del hosts
-mkdir $1
+mkdir /var/www/$1
 docroot="/var/www/$1/"
 host='1s/^/'$4
 hosts=host'    '
